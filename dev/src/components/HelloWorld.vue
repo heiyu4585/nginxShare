@@ -21,7 +21,7 @@ export default {
     var _this =this;
     axios({
       method: 'post',
-      url: "/list",
+      url: "/api/list",
       data: []
     }).then((res) => {
       console.log(res);
